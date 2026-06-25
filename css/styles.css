@@ -1509,14 +1509,21 @@ textarea:focus {
 }
 
 .videos-page {
-    padding: 120px 20px 60px;
+    padding: 120px 0 60px;
+}
+
+.video-section {
+    margin-bottom: 60px;
+}
+
+.video-section h2 {
+    margin-bottom: 25px;
 }
 
 .video-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
-    margin: 25px 0 50px;
 }
 
 .video-grid iframe {
@@ -1524,4 +1531,9 @@ textarea:focus {
     aspect-ratio: 16 / 9;
     border: none;
     border-radius: 12px;
+}
+
+.subscribe-section {
+    text-align: center;
+    margin-top: 50px;
 }
