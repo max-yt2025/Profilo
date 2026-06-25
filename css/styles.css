@@ -1537,3 +1537,15 @@ textarea:focus {
     text-align: center;
     margin-top: 50px;
 }
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+}
