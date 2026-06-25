@@ -1,0 +1,53 @@
+# robots.txt for Max Crafter YT Website
+# This file guides search engine crawlers on which parts of the site to access
+
+# Allow all crawlers to access the entire site
+User-agent: *
+Allow: /
+
+# Disallow specific directories (if any)
+# Disallow: /private/
+# Disallow: /admin/
+
+# Allow access to common static files
+Allow: /css/
+Allow: /js/
+Allow: /favicon/
+Allow: /assets/
+
+# Sitemap location
+Sitemap: https://maxyt2025.github.io/sitemap.xml
+
+# Crawl-delay (optional - specify delay between requests in seconds)
+# Crawl-delay: 1
+
+# Disallow common development and temporary files
+Disallow: /tmp/
+Disallow: /logs/
+Disallow: /.git/
+
+# Specific rules for major search engines
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+
+# Block specific bots (if needed)
+# User-agent: BadBot
+# Disallow: /
