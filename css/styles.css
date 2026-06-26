@@ -8,16 +8,6 @@
     box-sizing: border-box;
 }
 
-.ymal-banner-frame {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 45px;
-    border: none;
-    z-index: 999999;
-}
-
 :root {
     /* Color Palette */
     --primary-color: #2563eb;
@@ -1559,3 +1549,87 @@ textarea:focus {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 20px;
 }
+
+
+        .ymal-banner {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            border-radius: 0 0 12px 12px;
+            padding: 10px 24px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            max-width: 100%;
+            transition: all 0.3s ease;
+        }
+        
+        .ymal-banner:hover {
+            border-color: rgba(0, 212, 255, 0.6);
+            box-shadow: 0 4px 25px rgba(0, 212, 255, 0.15);
+        }
+        
+        .shield-icon {
+            width: 22px;
+            height: 22px;
+            flex-shrink: 0;
+        }
+        
+        .banner-text {
+            color: #b0b0b0;
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+            white-space: nowrap;
+        }
+        
+        .banner-brand {
+            background: linear-gradient(90deg, #00d4ff, #7b2ff7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .banner-brand:hover {
+            background: linear-gradient(90deg, #33ddff, #9b4fff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .verified-badge {
+            background: rgba(0, 212, 255, 0.15);
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            border-radius: 12px;
+            padding: 3px 10px;
+            font-size: 11px;
+            color: #00d4ff;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+        }
+        
+        @media (max-width: 480px) {
+            .ymal-banner {
+                padding: 8px 16px;
+                gap: 6px;
+                border-radius: 0 0 8px 8px;
+            }
+            .banner-text {
+                font-size: 11px;
+            }
+            .banner-brand {
+                font-size: 12px;
+            }
+            .verified-badge {
+                font-size: 10px;
+                padding: 2px 8px;
+            }
+        }
