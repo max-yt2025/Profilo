@@ -242,6 +242,10 @@
     </div>
 </section>
 
+    <audio id="bgmusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+     </audio>
+    
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -302,6 +306,11 @@
     </footer>
 
 <script src="js/script.js"></script>
+    <script>
+document.addEventListener("click", () => {
+    document.getElementById("bgmusic").play();
+}, { once: true });
+</script>
 
 </body>
 </html>
