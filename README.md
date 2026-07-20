@@ -1,6 +1,6 @@
 # Max Crafter YT Personal Website
 
-A professional, SEO-optimized personal website for Max Crafter YT - YouTube Shorts Creator, Roblox Streamer, and Entertainment Content Creator (950/960 Subscribers).
+A professional, SEO-optimized personal website for Max Crafter YT - YouTube Shorts Creator, Roblox Streamer, and Entertainment Content Creator (1k Subscribers).
 
 ## 📄 License
 
@@ -23,4 +23,4 @@ For issues or questions about this template, please open an issue in the reposit
 
 ---
 
-**Created with ❤️ for Max Crafter YT - YouTube Shorts Creator & Roblox Streamer (950/960 Subscribers)**
+**Created with ❤️ for Max Crafter YT - YouTube Shorts Creator & Roblox Streamer (1k Subscribers)**
