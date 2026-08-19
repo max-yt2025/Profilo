@@ -16,7 +16,7 @@ Allow: /favicon/
 Allow: /assets/
 
 # Sitemap location
-Sitemap: https://maxyt2025.github.io/sitemap.xml
+Sitemap: https://max-yt2025.space/sitemap.xml
 
 # Crawl-delay (optional - specify delay between requests in seconds)
 # Crawl-delay: 1
@@ -27,6 +27,16 @@ Disallow: /logs/
 Disallow: /.git/
 
 # Specific rules for major search engines
+
+# AI-Specific crawlers (Essential for modern GEO/Discoverability)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
 
 # Google
 User-agent: Googlebot
